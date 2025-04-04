@@ -1,0 +1,31 @@
+{
+  "id": "sw_prismdriver",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "data.scripts.weapons.PrismBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  
+  "turretSprite":"graphics/weapons/sw_prism_turret.png",
+  "turretGlowSprite":"graphics/weapons/sw_prism_turret_glow.png",
+  "hardpointSprite":"graphics/weapons/sw_prism_hardpoint.png",
+  "hardpointGlowSprite":"graphics/weapons/sw_prism_hardpoint_glow.png",
+  
+  "hitGlowRadius": 50,
+  
+  "turretOffsets":[22.5, 0],
+  "turretAngleOffsets":[0],
+  "hardpointOffsets":[25, 0],
+  "hardpointAngleOffsets":[0],
+  "fringeColor":[80,110,255,235],
+  "glowColor":[115,115,255,190],
+  
+  "width": 32,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 20,
+  "pixelsPerTexel": 5,
+  "pierceSet":["MISSILE_FF", "MISSILE_NO_FF"],
+  
+  "fireSoundOne": "Prism_Fire",
+}

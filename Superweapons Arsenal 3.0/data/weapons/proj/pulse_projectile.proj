@@ -1,0 +1,18 @@
+{
+	"id":"pulse_projectile",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"passThroughMissiles":true,
+	"length":45,
+	"width":45,
+	"fadeTime":0.15,
+	"fringeColor":[50,130,250,255],
+	"coreColor":[150,255,250,255],
+	"glowColor":[60,140,220,170],
+	"glowRadius":70,
+	"hitGlowRadius":100,
+	"textureScrollSpeed":64,
+	"pixelsPerTexel":1.0
+}

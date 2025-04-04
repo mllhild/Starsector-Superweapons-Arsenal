@@ -1,0 +1,30 @@
+{
+  "id": "sw_devastator",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "data.scripts.weapons.DevastatorBeamEffect",
+  "everyFrameEffect": "data.scripts.weapons.DevastatorEveryFrame",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  
+  "turretSprite":"graphics/weapons/sw_devastator_turret.png",
+  "turretGlowSprite":"graphics/weapons/sw_devastator_turret_glow.png",
+  "hardpointSprite":"graphics/weapons/sw_devastator_hardpoint.png",
+  "hardpointGlowSprite":"graphics/weapons/sw_devastator_hardpoint_glow.png",
+  
+  "hitGlowRadius": 300,
+  
+  "turretOffsets":[17, 0],
+  "turretAngleOffsets":[0],
+  "hardpointOffsets":[20, 0],
+  "hardpointAngleOffsets":[0],
+  "fringeColor":[105,85,235,225],
+  "glowColor":[170,150,255,190],
+  
+  "width": 64,
+  "textureType":["graphics/fx/beam_weave_fringe.png","graphics/fx/devastator_beamcore.png"],
+  "textureScrollSpeed": 115,
+  "pixelsPerTexel": 5,
+  "pierceSet":["MISSILE_FF", "MISSILE_NO_FF"],
+}

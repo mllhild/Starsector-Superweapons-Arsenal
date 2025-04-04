@@ -1,0 +1,19 @@
+{
+	"id":"radioactive_charge",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"NONE",
+    "onHitEffect":"data.scripts.weapons.BFGOnHit",
+	"passThroughMissiles":true,
+	"length":160,
+	"width":160,
+	"fadeTime":0.1,
+	"fringeColor":[100,200,100,255],
+	"coreColor":[150,255,150,255],
+	"glowColor":[130,255,130,190],
+	"glowRadius":350,
+	"hitGlowRadius":500,
+	"textureScrollSpeed":64,
+	"pixelsPerTexel":1.0
+}

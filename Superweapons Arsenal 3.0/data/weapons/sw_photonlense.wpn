@@ -1,0 +1,35 @@
+{
+	"id":"sw_photonlense",
+
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"mountTypeOverride":"HYBRID",
+	"projectileSpecId":"photon_torpedo",
+
+	"turretSprite":"graphics/weapons/sw_photon_turret.png",
+
+	"hardpointSprite":"graphics/weapons/sw_photon_hturret.png",
+
+	"turretOffsets":[39, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[41, 0],
+	"hardpointAngleOffsets":[0],
+
+	"separateRecoilForLinkedBarrels": true,
+
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+					   
+					   
+	"muzzleFlashSpec":{"length":60.0,
+					   "spread":10,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.2,
+					   "particleCount":35,
+					   "particleColor":[125,155,255,255]},	
+
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"fireSoundOne":"Photon_Fire",
+}

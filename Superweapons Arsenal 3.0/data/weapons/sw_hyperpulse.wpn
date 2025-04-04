@@ -1,0 +1,43 @@
+{
+	"id":"sw_hyperpulse",
+
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"projectileSpecId":"pulse_projectile",
+
+	"turretSprite":"graphics/weapons/sw_hyperpulse_turret.png",
+
+	"hardpointSprite":"graphics/weapons/sw_hyperpulse_hardpoint.png",
+	
+	
+	"everyFrameEffect": "data.scripts.weapons.HyperpulseEveryFrame",
+
+	"glowColor":[200,200,30,200],
+
+	"turretAngleOffsets":[0],
+	"hardpointAngleOffsets":[0],
+	
+	"hardpointOffsets": [
+		37,10,
+		37,-10,
+    ],
+    "turretOffsets": [
+        31,10,
+		31,-10,
+    ],
+
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+
+	"muzzleFlashSpec":{"length":12.0,
+					   "spread":50.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":7.0,
+					   "particleDuration":0.35,
+					   "particleCount":15,
+					   "particleColor":[50,140,215,225]},		
+
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"fireSoundOne":"Hyperpulse_Fire"
+}

@@ -1,0 +1,19 @@
+{
+	"id":"lightsplinter",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"NONE",
+	"collisionClassByFighter":"NONE",
+	"length":500.0,
+	"width":20,
+	"fadeTime":0.1,
+	"hitGlowRadius":66,
+	
+	"fringeColor":[100,220,255,255],
+	"coreColor":[200,230,255,255],
+	"textureType":["graphics/fx/beam_weave_core.png","graphics/fx/beam_weave_fringe.png"],
+	"textureScrollSpeed":256.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/missiles/sw_ballistic_shell.png",
+    "passThroughMissiles":true,
+}

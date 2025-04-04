@@ -1,0 +1,44 @@
+{
+	"id":"sw_flash",
+
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"mountTypeOverride":"HYBRID",
+	"projectileSpecId":"tachyon_charge",
+
+	"turretSprite":"graphics/weapons/sw_flash_turret.png",
+	"turretGlowSprite": "graphics/weapons/sw_flash_turret_glow.png",
+	
+	"hardpointSprite":"graphics/weapons/sw_flash_hardpoint.png",
+	"hardpointGlowSprite": "graphics/weapons/sw_flash_hardpoint_glow.png",
+	
+	"everyFrameEffect":"data.scripts.weapons.FlashEveryFrameEffect",
+	
+	"turretOffsets":[47, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[45, 0],
+	"hardpointAngleOffsets":[0],
+
+	"glowColor":[100,150,220,155],
+
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+
+	"muzzleFlashSpec": {
+			"length": 50,
+			"spread": 10,
+			"particleSizeMin": 60,
+			"particleSizeRange": 24,
+			"particleDuration": 0.12,
+			"particleCount": 18,
+			"particleColor": [
+							255,
+							255,
+							255,
+							255
+		]
+	},		
+
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+}

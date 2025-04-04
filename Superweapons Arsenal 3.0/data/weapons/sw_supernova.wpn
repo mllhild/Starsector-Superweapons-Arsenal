@@ -1,0 +1,33 @@
+{
+	"id":"sw_supernova",
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"mountTypeOverride":"SYNERGY",
+	
+	"turretSprite":"graphics/weapons/sw_supernova_turret.png",
+	#"turretGlowSprite":"graphics/weapons/sw_supernova_turret_glow.png",
+	
+	"hardpointSprite":"graphics/weapons/sw_supernova_hardpoint.png",
+	#"hardpointGlowSprite":"graphics/weapons/sw_supernova_hardpoint_glow.png",
+	
+	"everyFrameEffect": "data.scripts.weapons.SupernovaEveryFrame",
+  
+	"glowColor":[200,140,20,255],
+	"turretOffsets":[20, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[25, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.5,
+					   "particleCount":40,
+					   "particleColor":[200,140,20,255]},	
+	"autocharge":true,
+	"projectileSpecId":"supernova_charge",
+	"fireSoundTwo":"Supernova_Fire",
+}

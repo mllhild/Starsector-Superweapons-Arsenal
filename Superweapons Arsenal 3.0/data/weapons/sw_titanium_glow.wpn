@@ -1,0 +1,18 @@
+{
+	"id":"sw_titanium_glow",
+	"type":"DECORATIVE",
+	"specClass":"projectile",
+	"size":"LARGE",
+	"turretSprite":"graphics/ships/sw_titanium_glow_00.png",
+	"hardpointSprite":"graphics/ships/sw_titanium_glow_00.png",
+	"numFrames":2,	
+	"frameRate":0,
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],		
+	"barrelMode":"ALTERNATING",
+	"animationType":"NONE",
+	"projectileSpecId":"vulcan_shot",
+	"renderBelowAllWeapons":true
+}

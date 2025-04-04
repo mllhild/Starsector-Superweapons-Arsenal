@@ -1,0 +1,19 @@
+{
+	"id":"photon_torpedo",
+	"onHitEffect":"data.scripts.weapons.PhotonOnHit",
+	"specClass":"projectile",
+	"passThroughMissiles":true,
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":90,
+	"width":55,
+	"fadeTime":0.1,
+	"fringeColor":[100,50,255,225],
+	"coreColor":[200,200,255,255],
+	"glowColor":[100,200,255,75],
+	"glowRadius":120,
+	"hitGlowRadius":70,	
+	"textureScrollSpeed":128,
+	"pixelsPerTexel":1.0
+}

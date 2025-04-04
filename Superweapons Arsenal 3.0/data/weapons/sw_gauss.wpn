@@ -1,0 +1,40 @@
+{
+  "id": "sw_gauss",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "projectileSpecId": "gauss_rail",
+  "specClass": "projectile",
+  
+  "turretSprite": "graphics/weapons/sw_gauss_turret.png",
+  "turretGlowSprite": "graphics/weapons/sw_gauss_turret_glow.png",
+  
+  "hardpointSprite": "graphics/weapons/sw_gauss_hturret.png",
+  "hardpointGlowSprite": "graphics/weapons/sw_gauss_hturret_glow.png",
+  
+  "everyFrameEffect":"data.scripts.weapons.GaussEveryFrame",
+  
+  "turretOffsets": [8,0],
+  
+  "hardpointOffsets": [8,0],
+  
+  
+  "turretAngleOffsets": [0],
+  "hardpointAngleOffsets": [0],
+  
+  "glowColor": [255,100,100,255],
+  
+  "animationType":"GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "particleColor": [255,200,120,155],
+    "particleCount": 30,
+    "particleDuration": 0.35,
+    "particleSizeMin": 4,
+    "particleSizeRange": 15,
+    "spread": 20
+  },
+					   
+  "barrelMode": "ALTERNATING",
+  "textureType": ROUGH,
+  "fireSoundTwo": "Gauss_Fire"
+}

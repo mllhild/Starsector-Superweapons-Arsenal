@@ -1,0 +1,28 @@
+{
+	"id":"sw_annihilator",
+	"specClass":"beam",
+	"type":"ENERGY",
+	"size":"LARGE",
+	
+	"turretSprite":"graphics/weapons/sw_annihilator_turret.png",
+	"turretGlowSprite":"graphics/weapons/sw_annihilator_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/sw_annihilator_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/sw_annihilator_hardpoint_glow.png",
+	
+	"beamEffect": "data.scripts.weapons.AnnihilatorBeamEffect",
+
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[8, 0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[255,70,70,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,155,155,255],
+	
+	"width":40.0,
+	"textureType":["graphics/fx/blackhole_fringe.png","graphics/fx/annihilator_core.png"],
+	"textureScrollSpeed":500.0,
+	"pixelsPerTexel":1.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	"fireSoundOne":"Annihilator_Charge",
+}

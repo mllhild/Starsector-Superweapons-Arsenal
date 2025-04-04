@@ -1,0 +1,34 @@
+{
+	"id":"sw_railgun",
+
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"projectileSpecId":"electromagnetic_railshot",
+
+	"turretSprite":"graphics/weapons/sw_rail_turret.png",
+	"turretGlowSprite":"graphics/weapons/sw_rail_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/sw_rail_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/sw_rail_hardpoint_glow.png",
+	
+	"turretOffsets":[1, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[13, 0],
+	"hardpointAngleOffsets":[0],
+
+	"glowColor":[130,130,250,255],
+
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+
+	"muzzleFlashSpec":{"length":100.0,
+					   "spread":5.0,
+					   "particleSizeMin":20.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.25,
+					   "particleCount":25,
+					   "particleColor":[115,185,255,255]},		
+
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"fireSoundOne":"ERail_Fire"
+}

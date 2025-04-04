@@ -1,0 +1,46 @@
+{
+	"id":"sw_bfg",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	
+	"textureType": ROUGH,
+	
+	"turretSprite":"graphics/weapons/sw_bfg_turret.png",
+	"turretGlowSprite":"graphics/weapons/sw_bfg_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/sw_bfg_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/sw_bfg_hardpoint_glow.png",
+	
+	"everyFrameEffect": "data.scripts.weapons.BFGEveryFrameEffect",
+	
+	"glowColor":[150,150,255,255],
+	"turretOffsets":[35,0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[35,0],
+	"hardpointAngleOffsets":[0],
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec": {
+    "length": 40,
+    "particleColor": [
+      100,
+      200,
+      100,
+      155
+    ],
+    "particleCount": 50,
+    "particleDuration": 1.2,
+    "particleSizeMin": 20,
+    "particleSizeRange": 40,
+    "spread": 5
+  },
+					   
+					   
+					   
+					   
+	"autocharge":true,  
+	"barrelMode":"LINKED",
+	"projectileSpecId":"radioactive_charge",  # projectile that will be fired
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	"fireSoundOne":"BFG_Fire1",
+	"fireSoundTwo":"BFG_Fire2",
+}

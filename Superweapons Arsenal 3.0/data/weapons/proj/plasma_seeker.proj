@@ -1,0 +1,42 @@
+{
+	"id":"plasma_seeker",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"onHitEffect":"data.scripts.weapons.PlasmaseekerOnHit",
+	
+	"sprite":"graphics/missiles/sw_plasma.png",
+	"size":[1,1],	
+	"center":[0,0],
+	         #[H,V]
+			 
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[190,170,255,125],
+	
+	"explosionRadius":250, # purely visual
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":800,
+				  "acc":2500,
+				  "dec":500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,255,255,0],
+						"contrailDuration":0,
+						"contrailWidthMult":0,
+						"contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":0, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.0, # how far away from engine it starts
+						"contrailColor":[255,255,255,0],
+				    	"glowSizeMult":0,
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":20.0,
+				    "angle":180.0}]			    
+}

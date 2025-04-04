@@ -1,0 +1,25 @@
+{
+	"id":"sw_lightsplinter",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/sw_lightsplinter.png",
+	"hardpointSprite":"graphics/weapons/sw_lightsplinter.png",
+	
+	"glowColor":[100,100,255,255],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.4,
+					   "particleCount":0,
+					   "particleColor":[100,100,255,255]},	
+	"autocharge":true,
+	"projectileSpecId":"lightsplinter",
+}

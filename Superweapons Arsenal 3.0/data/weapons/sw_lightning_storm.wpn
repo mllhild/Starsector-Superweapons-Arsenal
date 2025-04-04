@@ -1,0 +1,33 @@
+{
+	"id":"sw_lightning_storm",
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"mountTypeOverride":"HYBRID",
+	
+	"turretSprite":"graphics/weapons/sw_lightning_storm_turret.png",
+	"turretGlowSprite":"graphics/weapons/sw_lightning_storm_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/sw_lightning_storm_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/sw_lightning_storm_hardpoint_glow.png",
+	
+	"everyFrameEffect": "data.scripts.weapons.LightningStormEveryFrame",
+  
+	"glowColor":[150,160,225,255],
+	"turretOffsets":[28, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[30, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":0.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":50.0,
+					   "particleSizeMin":0.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.5,
+					   "particleCount":30,
+					   "particleColor":[190,190,235,0]},	
+	"autocharge":true,
+	"projectileSpecId":"electric_sphere",
+	"fireSoundOne":"Lightning_Storm_Charge1",
+	"fireSoundTwo":"Lightning_Storm_Fire",
+}

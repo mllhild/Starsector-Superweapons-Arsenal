@@ -1,0 +1,28 @@
+{
+	"id":"sw_blackhole",
+	"specClass":"beam",
+	"type":"ENERGY",
+	"size":"LARGE",
+	
+	"turretSprite":"graphics/weapons/sw_blackhole_turret.png",
+	"turretGlowSprite":"graphics/weapons/sw_blackhole_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/sw_blackhole_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/sw_blackhole_hardpoint_glow.png",
+	
+	"beamEffect": "data.scripts.weapons.BlackHoleBeamEffect",
+
+	"turretOffsets":[24, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[24, 0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[70,15,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[170,125,255,255],
+	
+	"width":50.0,
+	"textureType":["graphics/fx/blackhole_fringe.png","graphics/fx/blackhole_core.png"],
+	"textureScrollSpeed":350.0,
+	"pixelsPerTexel":1.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	"fireSoundOne":"Blackhole_Fire",
+}

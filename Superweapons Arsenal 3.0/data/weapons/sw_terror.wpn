@@ -1,0 +1,61 @@
+{
+  "id": "sw_terror",
+  "specClass":"projectile",
+  "projectileSpecId":"terror_torpedo",
+  "type":"MISSILE",
+  "size":"LARGE",
+  "textureType": ROUGH,
+  
+  "animationType":"SMOKE",
+  "barrelMode":"ALTERNATING",
+  "interruptibleBurst":false,
+  
+  "hardpointOffsets": [
+		20,13,
+		20,-13,
+		20,10,
+		20,-10,
+		17,13,
+		17,-13,
+		17,10,
+		17,-10,
+    ],
+  "turretOffsets": [
+		20,13,
+		20,-13,
+		20,10,
+		20,-10,
+		17,13,
+		17,-13,
+		17,10,
+		17,-10,
+    ],
+	
+	"smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 3,
+    "cloudRadius": 3,
+    "particleColor": [
+      60,
+      60,
+      60,
+      255
+    ],
+    "particleSizeMin": 10,
+    "particleSizeRange": 15
+  },
+  
+  "hardpointAngleOffsets":[0, 0, 0],
+  "turretAngleOffsets":[0, 0, 0],
+
+  "turretSprite":"graphics/weapons/sw_terror_turret.png",
+  "hardpointSprite":"graphics/weapons/sw_terror_turret.png",
+  
+  "fireSoundTwo": "Terror_Fire",
+
+  "width": 10
+}

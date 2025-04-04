@@ -1,0 +1,75 @@
+{
+  "id": "sw_novax",
+  "specClass":"projectile",
+  "projectileSpecId":"novax_shrapnel",
+  "type":"BALLISTIC",
+  "mountTypeOverride":"COMPOSITE",
+  
+  "size":"LARGE",
+  "textureType": ROUGH,
+  
+  "turretSprite":"graphics/weapons/sw_novax_turret.png",
+  "hardpointSprite":"graphics/weapons/sw_novax_hardpoint.png",
+  
+  
+  "everyFrameEffect": "data.scripts.weapons.NovaXEveryFrame",
+  
+  "animationType":"SMOKE",
+  "barrelMode":"ALTERNATING",
+  "interruptibleBurst":false,
+  
+  "turretOffsets": [
+		27,18,
+		27,-13,
+		27,13,
+		27,-18,
+		32,18,
+		32,-13,
+		32,13,
+		32,-18,
+		38,18,
+		38,-13,
+		38,13,
+		38,-18,
+    ],
+  "hardpointOffsets": [
+		27,18,
+		27,-13,
+		27,13,
+		27,-18,
+		32,18,
+		32,-13,
+		32,13,
+		32,-18,
+		38,18,
+		38,-13,
+		38,13,
+		38,-18,
+    ],
+	
+	"smokeSpec": {
+    "blowbackDuration": 1,
+    "blowbackLength": 11,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 4,
+    "cloudDuration": 0.25,
+    "cloudParticleCount": 3,
+    "cloudRadius": 1.25,
+    "particleColor": [
+      100,
+      100,
+      100,
+      255
+    ],
+    "particleSizeMin": 3,
+    "particleSizeRange": 7
+  },
+  
+  "hardpointAngleOffsets":[0, 0, 0],
+  "turretAngleOffsets":[0, 0, 0],
+
+  
+  "fireSoundTwo": "NovaX_Fire",
+
+  "width": 10
+}

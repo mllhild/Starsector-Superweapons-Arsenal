@@ -1,0 +1,28 @@
+{
+  "id": "sw_tesla_coil",
+  "size": "MEDIUM",
+  "mountTypeOverride":"HYBRID",
+  
+  "turretSprite":"graphics/weapons/sw_tesla_coil_turret.png",
+  "hardpointSprite":"graphics/weapons/sw_tesla_coil_hardpoint.png",
+  
+  "everyFrameEffect": "data.scripts.weapons.TeslaCoilEveryFrame",
+  
+  "turretOffsets":[0, 0],
+  "turretAngleOffsets":[0],
+  "hardpointOffsets":[0, 0],
+  "hardpointAngleOffsets":[0],
+  
+  
+  #Who cares?
+  "specClass": "beam",
+  "type": "ENERGY",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "hitGlowRadius": 0,
+  "width": 0,
+  "textureType":ROUGH,
+  "textureScrollSpeed": 100,
+  "pixelsPerTexel": 5,
+  "pierceSet":["MISSILE_FF", "MISSILE_NO_FF"],
+}

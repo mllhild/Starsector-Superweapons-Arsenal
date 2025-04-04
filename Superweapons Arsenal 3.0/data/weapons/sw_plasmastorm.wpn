@@ -1,0 +1,60 @@
+{
+	"id":"sw_plasmastorm",
+
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"projectileSpecId":"plasma_seeker",
+
+	"turretSprite":"graphics/weapons/sw_plasmastorm.png",
+
+	"hardpointSprite":"graphics/weapons/sw_plasmastorm.png",
+
+	"glowColor":[200,200,30,200],
+
+	"turretAngleOffsets":[270,90,260,100,250,110,240,120,230,130,220,140],
+	"hardpointAngleOffsets":[270,90,260,100,250,110,240,120,230,130,220,140],
+	
+	"hardpointOffsets": [
+        3,-24,
+		3,24,
+		1,-22,
+		1,22,
+		-1,-20,
+		-1,20,
+		-3,-18,
+		-3,18,
+		-5,-16,
+		-5,16,
+		-7,-14,
+		-7,14,
+    ],
+    "turretOffsets": [
+        -7,-24,
+		-7,24,
+		-9,-22,
+		-9,22,
+		-11,-20,
+		-11,20,
+		-13,-18,
+		-13,18,
+		-15,-16,
+		-15,16,
+		-17,-14,
+		-17,14,
+    ],
+
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+
+	"muzzleFlashSpec":{"length":40.0,
+					   "spread":5.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.2,
+					   "particleCount":20,
+					   "particleColor":[50,255,255,255]},		
+
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"fireSoundTwo":"Plasma_Fire"
+}

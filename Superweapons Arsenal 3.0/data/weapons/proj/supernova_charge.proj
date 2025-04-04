@@ -1,0 +1,43 @@
+{
+	"id":"supernova_charge",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"onHitEffect":"data.scripts.weapons.SupernovaOnHit",
+	
+	"sprite":"graphics/missiles/sw_supernova.png",
+	"size":[1,1],	
+	"center":[0,0],
+	         #[W,H]
+			 
+	"collisionRadius":30,
+	"collisionClass":"MISSILE_NO_FF",
+	"collisionClassByFighter":"NONE",
+	"explosionColor":[220,180,20,145],
+	
+	"explosionRadius":500, # purely visual
+	"engineSpec":{"turnAcc":200,
+				  "turnRate":200,
+				  "acc":150,
+				  "dec":150},
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,255,255,0],
+						"contrailDuration":0,
+						"contrailWidthMult":0,
+						"contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":0, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.0, # how far away from engine it starts
+						"contrailColor":[255,255,255,0],
+				    	"glowSizeMult":0,
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":20.0,
+				    "angle":180.0}]			    
+}

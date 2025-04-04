@@ -1,0 +1,20 @@
+{
+	"id":"electromagnetic_railshot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"NONE",
+	"collisionClassByFighter":"NONE",
+	"passThroughMissiles":true,
+	
+	"length":35,
+	"hitGlowRadius":400,
+	"width":35,
+	"fadeTime":0.01,
+	"fringeColor":[130,130,255,0],
+	"coreColor":[215,235,255,0],
+	"glowColor":[255,110,110,0],
+	"glowRadius":0,
+	"textureScrollSpeed":-255.0,
+	"pixelsPerTexel":7.0,
+	"bulletSprite":"graphics/debris/debris_sml3.png",
+}

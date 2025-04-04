@@ -1,0 +1,33 @@
+{
+	"id":"sw_lightspear",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"mountTypeOverride":"HYBRID",
+	
+	"turretSprite":"graphics/weapons/sw_lightspear_turret.png",
+	"turretGlowSprite":"graphics/weapons/sw_lightspear_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/sw_lightspear_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/sw_lightspear_hardpoint_glow.png",
+	
+	"everyFrameEffect": "data.scripts.weapons.LightSpearEveryFrame",
+  
+	"glowColor":[100,130,255,255],
+	"turretOffsets":[35, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[35, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":50.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.4,
+					   "particleCount":40,
+					   "particleColor":[100,100,255,255]},	
+	"autocharge":true,
+	"projectileSpecId":"lightspear",
+	"fireSoundOne":"LightSpear_Charge",
+	"fireSoundTwo":"LightSpear_Fire",
+}

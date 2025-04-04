@@ -1,0 +1,17 @@
+{
+	"id":"tachyon_charge",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"NONE",
+	"collisionClassByFighter":"NONE",	
+	"passThroughMissiles":true,
+	
+	"length":200.0,
+	"hitGlowRadius":100,
+	"width":100.0,
+	"fadeTime":0.12,
+	"fringeColor":[0,205,255,0],
+	"coreColor":[0,130,255,0],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+}

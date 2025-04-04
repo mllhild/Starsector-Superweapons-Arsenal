@@ -1,0 +1,19 @@
+{
+	"id":"charged_sphere",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+    "onHitEffect":"data.scripts.weapons.PhalanxOnHit",
+	"passThroughMissiles":true,
+	"length":70,
+	"width":70,
+	"fadeTime":0.3,
+	"fringeColor":[250,130,50,255],
+	"coreColor":[250,255,150,255],
+	"glowColor":[220,140,60,170],
+	"glowRadius":100,
+	"hitGlowRadius":300,
+	"textureScrollSpeed":64,
+	"pixelsPerTexel":1.0
+}
