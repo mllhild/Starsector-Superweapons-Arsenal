@@ -1,0 +1,25 @@
+{
+	"id":"superweapons",
+	"name":"Superweapons Arsenal",
+	"author":"Mira v1-2.5, KindaStrange 2.5b, mllhild 3.0",
+	"version":"3.0.0",
+	"description":"Adds Some powerful weapons with questionable balance into the game.",
+	"gameVersion":"0.98a-RC5",
+	"jars": [
+		"jars/Superweapons.jar"
+	],
+	"dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+        },
+		{
+            "id": "shaderLib",
+            "name": "GraphicsLib",
+        }
+    ],
+}
