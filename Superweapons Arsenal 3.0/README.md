@@ -1,5 +1,5 @@
-_Mod description_
-After playing Starsector for a while i noticed that there is not much excitement over finding weapons in this game (with the exception of end game missions), so i went ahead and created a subset of weapons that are balanced above the level of base weapons, hopefully to give a sense of satisfaction when found.
+# Mod description (by Mira)
+After playing Starsector for a while I noticed that there is not much excitement over finding weapons in this game (with the exception of end game missions), so I went ahead and created a subset of weapons that are balanced above the level of base weapons, hopefully to give a sense of satisfaction when found.
 
 # Superweapons Arsenal 3.0 (mllhild)
 Compatible for 0.98 / 0.97 / 0.96
