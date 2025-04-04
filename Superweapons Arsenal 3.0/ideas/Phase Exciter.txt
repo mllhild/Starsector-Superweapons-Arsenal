@@ -1,0 +1,3 @@
+Increases the time the Phase cooldown is for phase ships.
+Increases the cost of being in phase space for all phase ships.
+Works on allies and enemies.

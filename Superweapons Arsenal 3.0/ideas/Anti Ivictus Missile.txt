@@ -1,0 +1,13 @@
+Missile hits like the UAF Lion missle
+If hit on armor
+Damage proportional to the armor value and hull value of the ship, all anti armor damage
+If hit on hull
+Damage proportional to the hull value of the ship
+If hit on shield, no damage.
+
+Perfect vs Invictus
+Stronger the the larger the ship is.
+Useless vs fighter frigate.
+So strong vs the invictus that the missle was retired, once the invictus was retired.
+
+Makes small black holes on impact only. 

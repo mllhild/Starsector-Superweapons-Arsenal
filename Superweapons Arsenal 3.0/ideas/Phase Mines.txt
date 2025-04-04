@@ -1,0 +1,2 @@
+Deploys a minefield in phase space, that cause phaseships to overload when they explode near them.
+Works on ally and enemy, so take care.

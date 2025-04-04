@@ -1,0 +1,4 @@
+Shooting it cause the ship to strongly accelerate forward.
+On impact with another ship, instead of being stuck, your ship teleports in a line to the closes open space on the opposite site of the target.
+All enemies along the line take damage.
+Damage depends on your speed and weight.

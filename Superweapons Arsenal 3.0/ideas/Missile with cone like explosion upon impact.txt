@@ -1,0 +1,2 @@
+Missile detonates in a cone shape, instead of circular.
+Large area, but little damage. Good vs Fighter swarms.

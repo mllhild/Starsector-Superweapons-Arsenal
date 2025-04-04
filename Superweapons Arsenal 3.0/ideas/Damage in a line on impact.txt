@@ -1,0 +1,5 @@
+if hit on armor
+Shot / Missile penetrates armor and deals damage to ship every 50 units it penetrates.
+Great vs large or long ships.
+if hit on shield
+penetrates shield and explodes, causing armor damage.

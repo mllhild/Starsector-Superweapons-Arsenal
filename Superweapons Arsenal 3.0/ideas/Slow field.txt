@@ -1,0 +1,3 @@
+Missle creates a slow field uppon impact.
+All ships in region lose max movements speed and acceleration.
+Disables movement abilities.

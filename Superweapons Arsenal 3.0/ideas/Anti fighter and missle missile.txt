@@ -1,0 +1,3 @@
+Flies in a strait line, dealing emp damage to engines and misslies as well as targeting systems.
+Deals fracture damage.
+Larger mounts come with missilies with larger AoE.

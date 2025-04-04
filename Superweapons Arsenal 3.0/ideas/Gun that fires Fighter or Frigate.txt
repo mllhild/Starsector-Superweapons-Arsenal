@@ -1,0 +1,2 @@
+Gun can deploy Fighter of Frigate
+Limited ammo, but regenerates.

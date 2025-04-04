@@ -1,0 +1,2 @@
+Missile skips in and out of phase space during its travel.
+Bad vs small targets, good vs large ones.
