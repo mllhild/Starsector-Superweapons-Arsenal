@@ -1,0 +1,87 @@
+{
+  "variantId": "sw_onslaught_mission1",
+  "hullId": "onslaught_xiv",
+  "displayName": "Modified",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "targetingunit",
+    "hardenedshieldemitter",
+    "solar_shielding",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "tpc",
+        "WS 017": "tpc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 021": "sabotpod",
+        "WS 022": "sabotpod",
+        "WS 023": "sabotpod",
+        "WS 024": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "heavyac",
+        "WS 013": "heavyac",
+        "WS 020": "sw_gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "heavyac",
+        "WS 018": "sw_gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heavyac",
+        "WS 019": "sw_gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 014": "heavyac",
+        "WS 015": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightag",
+        "WS 004": "lightag",
+        "WS 005": "lightag",
+        "WS 006": "lightag",
+        "WS 007": "dualflak",
+        "WS 008": "lightdualac",
+        "WS 009": "lightdualac",
+        "WS 010": "dualflak",
+        "WS 011": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

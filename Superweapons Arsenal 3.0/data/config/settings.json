@@ -1,0 +1,37 @@
+{
+	"designTypeColors":{
+		"Legendary":[118,52,241,255],     #0.25_rarity
+		"Mythic":[242,140,64,255],     	  #0.3_rarity
+		"Exceptional":[64,242,150,255],	  #0.4_rarity
+		"Ultra Rare":[244,231,30,255],	  #0.5_rarity
+		"Rare":[24,182,229,255],          #0.6_rarity
+		
+		"Unique Modification":[140,140,255,255],
+		
+		"Syndicate Refit":[150,150,150,255],
+		"Syndicate":[150,150,150,255],
+		},
+		
+	"graphics":{
+		"fx":{
+			"SW_Blackhole":"graphics/fx/sw_blackhole.png",
+			"Trail_Clean":"graphics/fx/trails/clean_trail.png",
+			"Trail_Fuzzy":"graphics/fx/trails/fuzzy_trail.png",
+			"Trail_Zappy":"graphics/fx/trails/zappy_trail.png",
+			"Trail_Doublehelix":"graphics/fx/trails/doublehelix_trail.png",
+			"Trail_Ring":"graphics/fx/trails/ring_trail.png",
+			"Trail_Smooth":"graphics/fx/trails/smooth_trail.png",
+			"Trail_Contrail":"graphics/fx/trails/contrail_trail.png",
+			"Trail_Surge":"graphics/fx/trails/surge_trail.png",
+			"Trail_Core":"graphics/fx/trails/core_trail.png",
+			
+			
+			"sw_shieldsInner256":"graphics/shield/sw_shields256.png",
+			"sw_shieldsRing256":"graphics/shield/sw_shields256ring.png",
+			"sw_shieldsInner128":"graphics/shield/sw_shields128.png",
+			"sw_shieldsRing128":"graphics/shield/sw_shields128ring.png",
+			"sw_shieldsInner64":"graphics/shield/sw_shields64.png",
+			"sw_shieldsRing64":"graphics/shield/sw_shields64ring.png",
+		},
+	}
+}

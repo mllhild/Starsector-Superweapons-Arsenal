@@ -1,0 +1,82 @@
+{
+  "variantId": "sw_conquest_mission1",
+  "hullId": "conquest",
+  "displayName": "Modified",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "solar_shielding",
+    "hardened_subsystems",
+    "frontemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "sw_tartarus",
+        "WS 002": "sw_tartarus"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 019": "harpoonpod",
+        "WS 020": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "taclaser",
+        "WS 010": "taclaser",
+        "WS 013": "mark9",
+        "WS 014": "mark9",
+        "WS 023": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "taclaser",
+        "WS 009": "taclaser",
+        "WS 011": "mark9",
+        "WS 012": "mark9",
+        "WS 022": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "pdburst",
+        "WS 004": "pdburst",
+        "WS 005": "pdburst",
+        "WS 006": "pdburst",
+        "WS 015": "dualflak",
+        "WS 016": "dualflak",
+        "WS 017": "dualflak",
+        "WS 018": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

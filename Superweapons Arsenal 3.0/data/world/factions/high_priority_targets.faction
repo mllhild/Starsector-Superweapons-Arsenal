@@ -1,0 +1,228 @@
+{
+	id:"high_priority_targets",
+	"displayName":"High Priority Targets",
+	"displayNameWithArticle":"High Priority Targets",
+	"displayNameLong":"High Priority Targets",
+	"displayNameLongWithArticle":"High Priority Targets",
+	"entityNamePrefix":"High Priority Target",
+	"personNamePrefix":"Bounty Target",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"are",
+	
+	"logo":"graphics/factions/sw_wanted.png",
+	"crest":"graphics/factions/sw_wanted_crest.png",
+	"shipNamePrefix":"Target",
+	
+	"color":[125,125,125,255],
+	"baseUIColor":[155,155,155,255],
+	"showInIntelTab":false,
+	
+	"shipNameSources":{
+		"OMEGA":1,
+		"SPACE":1,
+	},
+	
+	"names":{
+        "ai":1,
+    },
+	
+	"shipsWhenImporting":{
+		"tags":["derelict","remnant","omega","hightech_bp","rare_bp","persean","sra_high_bp", "shadowyards"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["derelict","remnant","omega","hightech_bp","rare_bp","persean","sra_high_bp", "shadowyards"],
+		"hulls":[
+			
+		],
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["remnant","omega","hightech_bp","persean","brdy_mil_bp","brdy_rare","sra_high_bp","shadowyards"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["derelict","omega","base_bp","hightech_bp","rare_bp","missile_bp","remnant","diable_weapon_bp","scy_wep_bp","brdy_rare","brdy_wep_bp","sra_high_bp","shadowyards"],
+		"weapons":[
+			"lightneedler",
+			"railgun",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"heavyneedler",
+			"gauss",
+			"mjolnir",
+			"multineedler",
+			"breachpod",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+			"tachyonlance",
+			"lightmg",
+			"lightdualmg",
+			"lightmortar",
+			"vulcan",
+			"lightac",
+			"lightdualac",
+			"lightag",
+			"shredder",
+			"heavymg",
+			"heavymortar",
+			"flak",
+			"arbalest",
+			"chaingun",
+			"heavyac",
+			"hephag",
+			"mark9",
+			"devastator",
+			"hellbore",
+			"reaper",
+			"atropos",
+			"atropos_single",
+			"hammer",
+			"hammer_single",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"sabot",
+			"sabot_single",
+			"harpoonpod",
+			"salamanderpod",
+			"annihilatorpod",
+			"pilum",
+			"typhoon",
+			"hammerrack",
+			"mininglaser",
+			"pdlaser",
+			"irpulse",
+			"lrpdlaser",
+			"miningblaster",
+			"plasma",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	
+	"knownHullMods":{
+		"tags":["base_bp","remnant","omega"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"solar_shielding",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+		],
+	},
+
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":5,
+		
+		"shipSize":5,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"officer_training",
+			"flux_regulation",
+			"electronic_warfare",
+			"coordinated_maneuvers",
+		],
+	},
+	
+	"music":{
+		"market_hostile":"HPT_encounter",
+		"encounter_neutral":"HPT_encounter",
+		"encounter_hostile":"HPT_encounter",
+		"encounter_friendly":"HPT_encounter",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/sw_epsilon.png",
+		],
+		"standard_female":[
+			"graphics/portraits/sw_epsilon.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		"hpt":{"name":"High Priority Target"},
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+	},	
+	"fleetTypeNames":{
+		"patrolSmall":"Roamers",
+		"patrolMedium":"Patrol",
+		"patrolLarge":"Hunters",
+		"battlestation":"Base",
+	},
+},

@@ -1,0 +1,83 @@
+{
+  "variantId": "sw_radiant_mission2",
+  "hullId": "radiant",
+  "displayName": "Modified",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks",
+    "heavyarmor",
+    "hardenedshieldemitter",
+    "frontemitter",
+    "solar_shielding",
+	"sw_reflective_shield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "plasma",
+        "WS 001": "plasma"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "sw_terror",
+        "WS 004": "sw_terror"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "ionbeam",
+        "WS 006": "ionbeam",
+        "WS 007": "ionbeam",
+        "WS 008": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "taclaser",
+        "WS 010": "taclaser",
+        "WS 011": "taclaser",
+        "WS 016": "taclaser",
+        "WS 017": "taclaser",
+        "WS 018": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "shockrepeater",
+        "WS 013": "shockrepeater",
+        "WS 014": "shockrepeater",
+        "WS 015": "shockrepeater"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "sw_reflective_shield"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,79 @@
+{
+  "variantId": "sw_paragon_mission1",
+  "hullId": "paragon",
+  "displayName": "Modified",
+  "goalVariant": true,
+  "fluxCapacitors": 60,
+  "fluxVents": 60,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxdistributor",
+    "stabilizedshieldemitter",
+    "frontemitter",
+    "hardenedshieldemitter",
+    "solar_shielding",
+	"sw_reflective_shield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "tachyonlance",
+        "WS 002": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "sw_plasmastorm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "phasebeam",
+        "WS 019": "taclaser",
+        "WS 021": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "phasebeam",
+        "WS 013": "taclaser",
+        "WS 015": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "sw_reflective_shield",
+        "WS 007": "dualflak",
+        "WS 008": "dualflak",
+        "WS 011": "pdburst",
+        "WS 016": "pdburst",
+        "WS 017": "pdburst",
+        "WS 022": "pdburst",
+        "WS 023": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "reaper",
+        "WS 014": "reaper",
+        "WS 018": "reaper",
+        "WS 020": "reaper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

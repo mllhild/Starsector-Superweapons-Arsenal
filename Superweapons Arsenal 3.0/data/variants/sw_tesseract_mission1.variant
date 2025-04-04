@@ -1,0 +1,67 @@
+{
+  "variantId": "sw_tesseract_mission1",
+  "hullId": "tesseract",
+  "displayName": "Ultimate",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "advancedoptics",
+    "targetingunit",
+    "heavyarmor",
+    "hardenedshieldemitter",
+    "solar_shielding"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "sw_blackhole"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "resonatormrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "minipulser",
+        "WS 005": "minipulser",
+        "WS 006": "cryoflux",
+        "WS 007": "heavyblaster",
+        "WS 010": "cryoflux"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "shockrepeater",
+        "WS 002": "shockrepeater",
+        "WS 003": "shockrepeater",
+        "WS 004": "shockrepeater"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

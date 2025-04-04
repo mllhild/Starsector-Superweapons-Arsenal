@@ -1,0 +1,32 @@
+{
+  "variantId": "sw_titanium_mission1",
+  "hullId": "sw_titanium",
+  "displayName": "Advanced",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 47,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "targetingunit",
+    "pointdefenseai",
+    "fluxdistributor",
+    "fluxbreakers",
+    "reinforcedhull",
+    "armoredweapons",
+    "magazines",
+    "solar_shielding"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "sw_terror"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

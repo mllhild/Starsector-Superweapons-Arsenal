@@ -1,0 +1,208 @@
+{
+	"music":{
+		
+		"HPT_encounter":[
+			{"file":"high_priority_target_encounter.ogg","source":"sounds/music","volume":1,"randomStart":true},
+		],
+		
+	},
+		"Plasma_Fire":[
+			{"file": "sounds/effects/plasma_fire.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Plasma_Explode":[
+			{"file": "sounds/effects/plasma_explode.ogg", "pitch": 1, "volume": 1.4}
+		],
+			
+		"Photon_Fire":[
+			{"file": "sounds/effects/photon_fire.ogg", "pitch": 1, "volume": 1.4}
+		],
+		
+		"ERail_Fire":[
+			{"file": "sounds/effects/erial_fire.ogg", "pitch": 1, "volume": 1.4}
+		],
+		
+		"Tartarus_Fire":[
+			{"file": "sounds/effects/tartarus_fire.ogg", "pitch": 1, "volume": 1.4}
+		],
+		
+		"Phalanx_Fire":[
+			{"file": "sounds/effects/phalanx_fire.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Phalanx_Explode":[
+			{"file": "sounds/effects/phalanx_explode.ogg", "pitch": 1, "volume": 1.4}
+		],
+		
+		"Fusion_Fire":[
+			{"file": "sounds/effects/fusion_fire.ogg", "pitch": 1, "volume": 1.5}
+		],
+		
+		"Fusion_Loop":[
+			{"file": "sounds/effects/fusion_loop.ogg", "pitch": 1, "volume": 1.2}
+		],
+		
+		"Tartarus_Explode":[
+			{"file": "sounds/effects/tartarus_explode.ogg", "pitch": 1, "volume": 1.3}
+		],
+		
+		"Photon_Explode":[
+			{"file": "sounds/effects/photon_explode.ogg", "pitch": 1, "volume": 1.5}
+		],
+		
+		"Cluster_Fire":[
+			{"file": "sounds/effects/cluster_fire.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Mine_Loop":[
+			{"file": "sounds/effects/mine_loop.ogg", "pitch": 1, "volume": 1.5}
+		],
+		
+		"Gauss_Fire":[
+			{"file": "sounds/effects/gauss_fire.ogg", "pitch": 1, "volume": 1.5}
+		],
+		
+		"Gauss_Explode":[
+			{"file": "sounds/effects/gauss_explode.ogg", "pitch": 1, "volume": 1.5}
+		],
+	
+		"Devastator_Charge":[
+			{"file": "sounds/effects/devastator_charge.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Devastator_Fire":[
+			{"file": "sounds/effects/devastator_fire.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Prism_Fire":[
+			{"file": "sounds/effects/prism_fire.ogg", "pitch": 1, "volume": 1.4}
+		],
+		
+		"Reflect_Shield":[
+			{"file": "sounds/effects/reflect_shield.ogg", "pitch": 1, "volume": 1.5}
+		],
+		
+		"Positron_Fire":[
+			{"file": "sounds/effects/positron_fire.ogg", "pitch": 1, "volume": 1.5}
+		],
+		
+		"Positron_Explode":[
+			{"file": "sounds/effects/positron_explode.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Terror_Fire":[
+			{"file": "sounds/effects/terror_fire.ogg", "pitch": 1, "volume": 1.2}
+		],
+		
+		"Blackhole_Fire":[
+			{"file": "sounds/effects/blackhole_fire.ogg", "pitch": 1, "volume": 1.2}
+		],
+		
+		"Blackhole_Implode":[
+			{"file": "sounds/effects/blackhole_implode.ogg", "pitch": 1, "volume": 1.2}
+		],
+		
+		"Blackhole_Stabilize":[
+			{"file": "sounds/effects/blackhole_stabilize.ogg", "pitch": 1, "volume": 0.8}
+		],
+		
+		"Blackhole_Loop":[
+			{"file": "sounds/effects/blackhole_loop.ogg", "pitch": 1, "volume": 1.4}
+		],
+		
+		"BFG_Fire1":[
+			{"file": "sounds/effects/bfg_fire1.ogg", "pitch": 1, "volume": 1.2}
+		],
+		
+		"BFG_Fire2":[
+			{"file": "sounds/effects/bfg_fire2.ogg", "pitch": 1, "volume": 1.4}
+		],
+		
+		"BFG_Shock":[
+			{"file": "sounds/effects/bfg_shock.ogg", "pitch": 1, "volume": 0.5}
+		],
+		
+		"BFG_Explode":[
+			{"file": "sounds/effects/bfg_explode.ogg", "pitch": 1, "volume": 1.2}
+		],
+		
+		"LightSpear_Fire":[
+			{"file": "sounds/effects/lightspear_fire.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"LightSpear_Explode":[
+			{"file": "sounds/effects/lightspear_explode.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"LightSpear_Charge":[
+			{"file": "sounds/effects/lightspear_charge.ogg", "pitch": 1, "volume": 1.2}
+		],
+		
+		"Hyperpulse_Fire":[
+			{"file": "sounds/effects/hyperpulse_fire.ogg", "pitch": 1, "volume": 1.2}
+		],
+		
+		"Flash_Fire":[
+			{"file": "sounds/effects/flash_fire.ogg", "pitch": 1, "volume": 0.9}
+		],
+		
+		"NovaX_Fire":[
+			{"file": "sounds/effects/novax_fire.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Annihilator_Charge":[
+			{"file": "sounds/effects/annihilator_charge.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Annihilator_Fire":[
+			{"file": "sounds/effects/annihilator_fire.ogg", "pitch": 1, "volume": 1.5}
+		],
+		
+		"Annihilator_Explode":[
+			{"file": "sounds/effects/annihilator_explode.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Supernova_Fire":[
+			{"file": "sounds/effects/supernova_fire.ogg", "pitch": 1, "volume": 1.4}
+		],
+		
+		"Supernova_Explode":[
+			{"file": "sounds/effects/supernova_explode.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Lightning_Storm_Charge1":[
+			{"file": "sounds/effects/lightning_storm_charge1.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Lightning_Storm_Charge2":[
+			{"file": "sounds/effects/lightning_storm_charge2.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Lightning_Storm_Fire":[
+			{"file": "sounds/effects/lightning_storm_fire.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Lightning_Storm_Explode":[
+			{"file": "sounds/effects/lightning_storm_explode.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Lightning_Storm_Warning":[
+			{"file": "sounds/effects/lightning_storm_warning.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Lightning_Storm_Loop":[
+			{"file": "sounds/effects/lightning_storm_loop.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Lightning_Storm_Start":[
+			{"file": "sounds/effects/lightning_storm_start.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		"Lightning_Storm_Strike":[
+			{"file": "sounds/effects/lightning_strike1.ogg", "pitch": 1, "volume": 1},
+			{"file": "sounds/effects/lightning_strike2.ogg", "pitch": 1, "volume": 1},
+			{"file": "sounds/effects/lightning_strike2.ogg", "pitch": 1, "volume": 1}
+		],
+		
+		
+}
