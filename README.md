@@ -29,3 +29,7 @@ Reading is for nerds.
 - You will be offered bounties for a chance to recover Superweapons after beating their current owner in battle (Require Vayra's Sector)
 - [Slightly better Techmining](https://www.patreon.com/posts/0-98a-mod-125459046) mod helps with finding weapons
 - it's not possible to attain blueprints for any of these weapons, also they won't be used by any faction
+
+
+## License
+This mod is public domain due to its abandoment.
