@@ -1,5 +1,10 @@
 # Currently recommended Version is 2.5b
 
+## Requirements
+- [LazyLib](https://github.com/LazyWizard/lazylib/releases)
+- [MagicLib](https://github.com/MagicLibStarsector/MagicLib/releases/)
+- [GraficLib](https://bitbucket.org/DarkRevenant/graphicslib/downloads/)
+
 ## Mod description (by Mira)
 After playing Starsector for a while I noticed that there is not much excitement over finding weapons in this game (with the exception of end game missions), so I went ahead and created a subset of weapons that are balanced above the level of base weapons, hopefully to give a sense of satisfaction when found.
 
