@@ -32,4 +32,4 @@ Reading is for nerds.
 
 
 ## License
-This mod is public domain due to its abandoment.
+This mod is public domain due to its abandoment by the original author Mira Lendin.
