@@ -11,7 +11,7 @@ After playing Starsector for a while I noticed that there is not much excitement
 ## Superweapons Arsenal 3.0 (mllhild)
 Compatible for 0.98 / 0.97 / 0.96
 Update:
-- remade ALL sprites so that the mod can return to the forum (weapons, projectiles, trails, fx, shield, ... ) 
+- remade ALL sprites so that the mod can return to the forum (weapons, projectiles, trails, fx, shield, ... ), yet the mods werent satisfied, so now Im planning on bringing back the old sprites and expand the roster for 3.1, hence please use 2.5b for the time being.
 
 ## Superweapons Arsenal 2.5b Fixes (KindaStrange)
 Compatible for 0.98 / 0.97 / 0.96
